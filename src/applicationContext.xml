@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="helloWord" class="com.bean.HelloWord">
+        <property name="name2" value="spring"></property>
+    </bean>
+    <bean id="helloWord2" class="com.bean.HelloWord">
+        <property name="name2" value="spring"></property>
+    </bean>
+
+    <bean id="car" class="com.bean.Car">
+        <constructor-arg value="Aoti"></constructor-arg>
+    </bean>
+
+</beans>
